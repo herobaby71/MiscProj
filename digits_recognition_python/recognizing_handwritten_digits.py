@@ -41,7 +41,7 @@ while(count<100):
 plt.set_cmap("gray")
 plt.imshow(display_array)
 print("Program paused. waiting for continue...")
-plt.plot()
+plt.show(block=False)
 
 
 
